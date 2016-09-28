@@ -32,7 +32,7 @@ def turn(board)
   intger=input.to_i
   #position = intger.to_i -1
   if valid_move?(board, input)
-    move(board, intger,"X")
+    move(board, intger,current_player(board))
     display_board(board)
   else
     turn(board)
