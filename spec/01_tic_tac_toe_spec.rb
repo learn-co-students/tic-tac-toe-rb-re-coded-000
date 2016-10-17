@@ -43,8 +43,8 @@ describe './lib/tic_tac_toe.rb' do
 
   describe '#move' do
 
-    it 'does not allow for a default third argument' do
-      board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    it 'does not allow for a default third argument' do  
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
       expect{move(board, 1)}.to raise_error(ArgumentError)
     end
