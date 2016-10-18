@@ -29,10 +29,10 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   position=gets.strip
-  position2 =position.to_i
-  token =current_player(board)
+  m2 =position.to_i
+  n =current_player(board)
   if valid_move?(board,position)
-    move(board,position2,token)
+    move(board,m2,n)
     display_board(board)
   else
     turn(board)
