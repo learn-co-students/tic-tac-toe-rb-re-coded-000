@@ -1,3 +1,4 @@
+earn
 # Tic Tac Toe in Ruby
 
 ## Objectives
